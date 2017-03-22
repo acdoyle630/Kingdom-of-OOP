@@ -40,7 +40,7 @@ gulp.task('watch', ['test'], function () {
   gulp.watch(paths.watch, ['test']);
 });
 
-gulp.task('test', ['build', 'lint', 'mocha']);
+gulp.task('test', ['build', 'mocha']);
 
 gulp.task('default', ['watch']);
 
